@@ -1,0 +1,102 @@
+body {
+   background-color: rgb(0, 0, 0);
+}
+#upper {
+   background-color: grey;
+   width: 99vw;
+   height: 14vh;
+   margin-left: -0.05vw;
+   font-family: Lucida Bright;
+   font-weight:900;
+   font-size: 30px;
+}
+#toleft {
+   display: block;
+   float: left;
+   margin-left: 7vw;
+   padding-top: 0.8vh;
+   user-select: none;
+}
+#toright {
+   display: block;
+   float: right;
+   margin-right: 14vw;
+   padding-top: 4.9vh;
+   user-select: none;
+}
+#toinsert-2 {
+  float: right;
+  margin-top: 0.8px;
+  margin-left: 20px;
+}
+#main {
+  width: 92vw;
+  height: 50vh;
+  margin: 5.5vh 4.6vw;
+}
+.products-list {
+  list-style-type: none;
+}
+.per-product {
+  display: inline-block;
+  background-color: grey;
+  color: black;
+  width: 26vw;
+  text-align: center;
+  margin-right: 3.5vw;
+  user-select: none;
+}
+.per-product:hover {
+  box-shadow: 4px 4px 65px green;
+}
+.per-product img {
+    width: 26vw;
+    height: 41.5vh;
+}
+.product-name {
+  margin-top: 0.8px;
+  color: #4d0026;
+  padding: auto 25px;
+  font-family: Arial black;
+  font-weight: bolder;
+  font-size: 22px;
+}
+.hor-rule {
+  margin-top: -18.5px;
+  background-color: black;
+  border: 2px solid black;
+}
+.product-desc {
+  font-family: Century Gothic;
+  font-weight: bolder;
+  font-size: 22px;
+  text-align: center;
+  margin-top: -1px 15px 11px 15px;
+}
+.product-cost {
+  font-family: Bahnschrift SemiLight;
+  font-weight: bolder;
+  font-size: 24px;
+  margin-left: -90px;
+}
+.product-cost, .incr-count, .disp-count, .decr-count {
+  display: inline;
+  margin-bottom: 20px;
+}
+ .addtocart {
+   float: right;
+   font-family: Bahnschrift SemiLight;
+   font-weight: bolder;
+   margin-right: 18px;
+   font-size: 24px;
+   margin-top: -2px;
+}
+ .incr-count, .decr-count {
+   cursor: pointer;
+   background-color: grey;
+   border: 4px grey;
+   font-size: 30px;
+}
+ .disp-count {
+   font-size: 30px;
+ }
