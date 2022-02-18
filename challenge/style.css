@@ -1,0 +1,84 @@
+body {
+   background-color: black;
+   color: white;
+   user-select: none;
+}
+#name {
+   text-align: center;
+   margin-top: 10vh;
+   margin-bottom: 6vh;
+   font-family: Arial Black;
+   font-size: 40px;
+   font-weight: bold;
+}
+body button {
+   font-family: Artifakt Element Heavy;
+   font-size: 27px;
+   background-color: grey;
+   border: 2px solid grey;
+   width: 11vw;
+   height: 7.5vh;
+   cursor: pointer;
+   margin-right: 1.5vw;
+}
+#image {
+   width: 22.5vw;
+   height: 46vh;
+   border-radius: 350px;
+}
+#options {
+   display: block;
+   float: left;
+   margin-top: 50vh;
+   margin-left: -29.5vw; 
+}
+#options button:hover {
+   background-color: darkred;
+   border: 2px solid darkred;
+   transition: all 0.4s;
+}
+#play-button {
+   display: block;
+   margin-top: 68vh;
+   margin-left: 44vw;
+}
+#play-button button:hover {
+   background-color:purple;
+   border: 2px solid purple;
+   transition: all 0.4s;
+}
+#player-option {
+   display: block;
+   float: left;
+   margin-left: 7.7vw;
+}
+#computer-option {
+   display: block;
+   float: right;
+   margin-right: 7.7vw
+}
+#smrt-comp {
+   margin-top: 2.9vh;
+   color: red;
+   font-family: Britannic Bold;
+   font-size: 36px;
+   text-align: center;
+   font-weight: bold;
+}
+#previous-games {
+   font-family: Calibri;
+   font-size: 36px;
+   font-weight: bold;
+   color: darkgreen;
+   display: block;
+   float: left;
+   height: 10vh;
+   width: 10vw;
+   text-align: center;
+   margin-left: 6vw;
+}
+#game-result {
+   margin-top: -8.3vh;
+   font-size: 24px;
+   font-weight: bold;;
+}
