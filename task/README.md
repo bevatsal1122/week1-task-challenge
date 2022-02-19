@@ -1,4 +1,4 @@
-<h1>Screenshots of Project<h1>
+<h1>Screenshots of Project</h1>
 <img src = "screenshots/output 1.png"><br><br>
 <img src = "screenshots/output 2.png"><br><br>
 <img src = "screenshots/output 3.png"><br><br>
